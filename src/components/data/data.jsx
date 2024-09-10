@@ -8,14 +8,19 @@ import { BsMoisture } from "react-icons/bs";
 import { FaCamera } from "react-icons/fa";
 import { FaMapMarkedAlt } from "react-icons/fa";
 
+const apiKey = import.meta.env.VITE_Firebase_api;
+const appId = import.meta.env.VITE_app_id;
+const messageSenderId = import.meta.VITE_messaging_sender_id;
+const databaseUrl = import.meta.VITE_database_url;
+
 const firebaseConfig = {
-    apiKey: "AIzaSyBneWXK9wj4T3SL8tMmJ5uTSMV0GUyW4F0",
+    apiKey: apiKey,
     authDomain: "sparkbot-ee008.firebaseapp.com",
-    databaseURL: "https://sparkbot-ee008-default-rtdb.firebaseio.com",
+    databaseURL: databaseUrl,
     projectId: "sparkbot-ee008",
     storageBucket: "sparkbot-ee008.appspot.com",
-    messagingSenderId: "931360089954",
-    appId: "1:931360089954:web:4eb932f57bd39cbd016e3b"
+    messagingSenderId: messageSenderId,
+    appId: appId
 };
 
 const app = initializeApp(firebaseConfig);
@@ -140,7 +145,7 @@ const FirebaseComponent = () => {
         </div>
         
         <div className='flex flex-row basis-3/4 flex-wrap lg:flex-nowrap'>
-            <div className='flex flex-col h-[435px] lg:w-[760px] w-full rounded-lg mt-8 shadow-lg p-2 bg-white'>
+            <div className='flex flex-col h-[435px] overflow-y-auto lg:w-[760px] w-full rounded-lg mt-8 shadow-lg p-2 bg-white'>
                 <div className='mb-2 ml-1 flex items-center'>
                     <FaMapMarkedAlt className='ml-3 h-4 w-4 mr-2' /> 
                     <p className='font-semibold'>Moisture Mapping</p>

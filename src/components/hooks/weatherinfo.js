@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 
+const api = import.meta.env.VITE_weather_api;
 
 function useWeatherInfo(city) {
     const [data, setData] = useState({})
 
     useEffect(() => {
-        fetch(`https://api.weatherapi.com/v1/current.json?key=31e90641af09458c9ed72949240604&q=${city}&aqi=yes`)
+        fetch(`https://api.weatherapi.com/v1/current.json?key=${api}&q=${city}&aqi=yes`)
         .then((res) => res.json())
         .then((res) => setData(res))
         .catch((e) => console.log(e))
