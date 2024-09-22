@@ -1,6 +1,6 @@
 # 🌾 AgroBot
 
-AgroBot is an innovative web application designed to monitor and analyze agricultural data such as temperature, humidity, and soil moisture. It integrates weather information and Firebase for real-time data updates.
+AgroBot is an web application made for Sparkbot which is designed to monitor and analyze agricultural data such as temperature, humidity, and soil moisture. It integrates weather information and Firebase for real-time data updates.
 
 ## 🌟 Features
 
@@ -8,7 +8,6 @@ AgroBot is an innovative web application designed to monitor and analyze agricul
 - 🌤️ Weather information display
 - 💧 Soil moisture monitoring
 - 🌡️ Temperature and humidity readings
-- 📸 Camera integration for offline use
 
 ## 💻 Technologies Used
 
@@ -16,7 +15,6 @@ AgroBot is an innovative web application designed to monitor and analyze agricul
 - Firebase Realtime Database
 - WeatherAPI for weather information
 - Tailwind CSS for styling
-- React Icons for UI elements
 
 ## 🚀 Getting Started
 
