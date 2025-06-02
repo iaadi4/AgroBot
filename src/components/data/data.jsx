@@ -18,7 +18,7 @@ const firebaseConfig = {
     authDomain: "sparkbot-ee008.firebaseapp.com",
     databaseURL: databaseUrl,
     projectId: "sparkbot-ee008",
-    storageBucket: "sparkbot-ee008.appspot.com",
+    storageBucket: "sparkbot-ee9.appspot.com",
     messagingSenderId: messageSenderId,
     appId: appId
 };
