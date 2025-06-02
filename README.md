@@ -1,20 +1,38 @@
-# Sparkbot
-A bot that can detect can soil quality,  can send data on the website, perform autonomous mapping and can be controlled over the internet.
+# 🌾 AgroBot
 
-  - Detection of Soil Quality: Utilizing moisture sensors and possibly other sensors to assess soil quality parameters such as pH, nutrient levels, temperature, etc.
+AgroBot is an web application made for Sparkbot which is designed to monitor and analyze agricultural data such as temperature, humidity, and soil moisture. It integrates weather information and Firebase for real-time data updates.
 
-  - Collection of Samples: Incorporating a spiral mechanism for sample collection and a rotating box to store the samples securely.
+## 🌟 Features
 
-  - GPS-based Navigation: Implementing GPS technology for navigation and mapping purposes, allowing the rover to navigate autonomously within a predefined area.
+- 📡 Real-time data fetching from Firebase
+- 🌤️ Weather information display
+- 💧 Soil moisture monitoring
+- 🌡️ Temperature and humidity readings
 
-  - Autonomous Missions: Designing the rover to perform autonomous missions using a microcontroller, various sensors, and possibly IoT connectivity for remote monitoring and control.
+## 💻 Technologies Used
 
-  - Data Streaming through IoT: Sending data collected by sensors in real-time through IoT connectivity, enabling remote access and analysis of soil quality data.
+- React
+- Firebase Realtime Database
+- WeatherAPI for weather information
+- Tailwind CSS for styling
 
-  - Control Over Internet: Allowing remote control and monitoring of the rover's operations via the internet, possibly through a web interface or dedicated software application.
+## 🚀 Getting Started
 
-  - Data Mapping: Creating maps or visual representations based on the data collected by the rover to facilitate easy interpretation of soil quality characteristics.
+### Prerequisites
 
-  - Integration of Solar Panels: Adding solar panels to the rover to improve battery backup and extend operational time, ensuring longer missions without the need for frequent recharging.
+Ensure you have the following installed:
 
-In addition to the listed points, we might also consider some features such as robustness, durability, and adaptability to various terrains and environmental conditions. Furthermore, ensuring data accuracy, reliability, and security is crucial, especially when transmitting sensitive information over the internet.
+- Node.js (version 14 or later)
+- npm (Node Package Manager)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/agrobot.git
+
+## 📸 Screenshots
+
+Here’s a look at the application in action:
+![image](https://github.com/user-attachments/assets/4820359d-e791-4e80-a46c-3c6385425ab1)
